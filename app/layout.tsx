@@ -33,13 +33,13 @@ export const metadata: Metadata = {
   authors: [{ name: "Barbearia do Max" }],
   creator: "Barbearia do Max",
 
-  metadataBase: new URL("https://seudominio.com"),
+  metadataBase: new URL("https://barbeariadomax.vercel.app/"),
 
   openGraph: {
     title: "Barbearia do Max 💈",
     description:
       "Cortes modernos, barba e atendimento de qualidade em Angra dos Reis.",
-    url: "https://seudominio.com",
+    url: "https://barbeariadomax.vercel.app/",
     siteName: "Barbearia do Max",
     locale: "pt_BR",
     type: "website",
@@ -58,11 +58,11 @@ export const metadata: Metadata = {
     title: "Barbearia do Max 💈",
     description:
       "Cortes modernos e barba em Angra dos Reis.",
-    images: ["/og-image.png"],
+    images: ["https://barbeariadomax.vercel.app/_next/image?url=%2Fbanner2.png&w=640&q=75"],
   },
 
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.icon.ico",
   },
 
   robots: {
