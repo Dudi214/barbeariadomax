@@ -21,8 +21,8 @@ export default function Header() {
 
   // 🔥 MENU CORRETO (SEM ACENTO NOS IDS)
   const menu = [
-    { nome: "Início", id: "início" },
-    { nome: "Serviços", id: "serviços" },
+    { nome: "Início", id: "inicio" },
+    { nome: "Serviços", id: "servicos" },
     { nome: "Sobre", id: "sobre" },
     { nome: "Contato", id: "contato" }
   ];
