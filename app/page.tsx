@@ -3,33 +3,46 @@ import Sobre from "@/components/Sobre"
 import Servicos from "@/components/Servicos"
 import FAQ from "@/components/FAQ"
 import Footer from "@/components/Footer"
-import Produtos from '../components/Produtos';
+import Produtos from '../components/Produtos'
 import ChatBot from "@/components/ChatBot"
 import Depoimentos from "@/components/Depoimentos"
-
 
 export default function Home() {
 
   return (
     <main>
 
-      <Hero />
+      {/* INÍCIO */}
+      <section id="inicio">
+        <Hero />
+      </section>
 
-      <Sobre />
+      {/* SOBRE */}
+      <section id="sobre">
+        <Sobre />
+      </section>
 
-      <Servicos />
+      {/* SERVIÇOS */}
+      <section id="servicos">
+        <Servicos />
+      </section>
 
-      <Produtos/>
+      {/* PRODUTOS */}
+      <Produtos />
 
+      {/* DEPOIMENTOS */}
       <Depoimentos />
 
+      {/* FAQ */}
       <FAQ />
 
-      <Footer />
+      {/* CONTATO */}
+      <section id="contato">
+        <Footer />
+      </section>
 
       <ChatBot />
 
     </main>
   )
-
 }
